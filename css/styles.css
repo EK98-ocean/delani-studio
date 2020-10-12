@@ -1,13 +1,30 @@
+body{
+    align-items: center;
+    text-align: center;
+}
+
 .welcome {
     background-image: url(../assets/backgrounds/h_img.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.about{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .services {
     background-image: url(../assets/backgrounds/s_image.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .contact {
     background-image: url(../assets/backgrounds/c_image.jpg);
+    padding-bottom: 50px;
 }
 
 input.transparent-input{
@@ -15,6 +32,45 @@ input.transparent-input{
  }
 
  .form-control::placeholder {
-    color: white;
-    opacity: 0.5
+    color: white; 
+    opacity: 0.5;
+}
+
+
+.portfolio{
+    
+}
+
+.portfolio img{
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.social{
+    align-items: center;
+}
+
+.portfoliotext{
+    display: none;
+}
+
+#porfoliopic{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#design-info-showing{
+    display: none;
+}
+
+#prod-info-showing{
+    display: none;
+}
+
+#dev-info-showing{
+    display: none;
+}
+
+.clickable:hover{
+    text-decoration: underline;
 }
