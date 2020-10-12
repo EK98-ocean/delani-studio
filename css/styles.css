@@ -9,3 +9,12 @@
 .contact {
     background-image: url(../assets/backgrounds/c_image.jpg);
 }
+
+input.transparent-input{
+    background-color:rgba(0,0,0,0);
+ }
+
+ .form-control::placeholder {
+    color: white;
+    opacity: 0.5
+}
