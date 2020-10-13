@@ -78,5 +78,8 @@ input.transparent-input{
     text-decoration: underline;
 }
 
+#message{
+    height: 250px;
+}
 
     
