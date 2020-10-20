@@ -32,6 +32,6 @@ $(document).ready(function(){
         }
         else {
             alert("Please provide a valid name and email!");
-    };
+        };
     });
 })
